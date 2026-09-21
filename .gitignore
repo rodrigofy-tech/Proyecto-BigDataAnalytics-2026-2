@@ -1,0 +1,12 @@
+# Datos crudos/derivados: se descargan directo desde el notebook de ingesta,
+# no se versionan en git (pesan demasiado y son reproducibles).
+data/
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# SO
+.DS_Store
+Thumbs.db
